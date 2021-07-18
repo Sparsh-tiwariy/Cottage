@@ -926,51 +926,68 @@ section {
 
 /* Services Section
 --------------------------------*/
- #services {
+#services {
   background: #fff;
   background-size: cover;
   padding: 60px 0 40px 0;
 }
 
-
-
-#services .box {
-  margin-bottom: 30px;
+#services .content {
+  padding: 30px 0;
 }
 
-#services .icon {
-  float: left;
-}
-
-#services .icon i {
-  color: #18d26e;
-  font-size: 36px;
-  line-height: 1;
-  transition: 0.5s;
-}
-
-#services .title {
-  margin-left: 60px;
+#services  .content h3 {
   font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 34px;
 }
 
-#services .title a {
-  color: #111;
-}
-
-#services .box:hover .title a {
-  color: #18d26e;
-}
-
-#services .description {
-  font-size: 14px;
-  margin-left: 60px;
-  line-height: 24px;
+#services  .content p {
   margin-bottom: 0;
-} 
+}
 
+#services  .content .icon-box {
+  margin-top: 25px;
+}
+
+#services  .content .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 10px 60px;
+}
+
+#services .content .icon-box .iconify-icon {
+  font-size: 48px;
+  float: center;
+  color: #5c9f24;
+  margin-left: 4  0px;
+}
+
+#services  .content .icon-box p {
+  font-size: 15px;
+  color: #848484;
+  margin-left: 60px;
+}
+
+#services .image {
+  background: url("../img/about-bg.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+@media (max-width: 991px) {
+  #services  .image {
+    text-align: center;
+  }
+  #services  .image img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 667px) {
+  #services  .image img {
+    max-width: 100%;
+  }
+}
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
