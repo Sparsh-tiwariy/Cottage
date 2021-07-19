@@ -57,8 +57,8 @@
   <header id="header" class="fixed-top header-transparent">
     <div class="container-fluid">
 
-      <div class="row justify-content-center">
-        <div class="col-xl-11 d-flex align-items-center">
+      <div class="row">
+        <div class="col-xl-12 d-flex align-items-center">
           <h1 class="logo mr-auto"><a href="index.html">BizPage</a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -194,7 +194,7 @@
                                     <span class="form-label">Check out</span>
                                 </div>
                             </div>
-                        </div>
+                        </div><br>
                         <div class="row">
                             <!-- <div class="col-md-4">
                                 <div class="form-group">
@@ -208,7 +208,7 @@
                                     <span class="form-label">Rooms</span>
                                 </div>
                             </div> -->
-                            <div class="col-md-4">
+                            <div class="col-md-12">
                                 <div class="form-group">
                                     <select name="totaladults" id="totaladults" class="form-control" required>
                                         <option value="" selected hidden>no of adults</option>
@@ -219,8 +219,8 @@
                                     <span class="select-arrow"></span>
                                     <span class="form-label">Adults</span>
                                 </div>
-                            </div>
-                            <div class="col-md-4">
+                            </div><br>
+                            <div class="col-md-12">
                                 <div class="form-group">
                                     <select name="totalchildrens" id="totalchildrens" class="form-control" required>
                                         <option value="" selected hidden>no of children</option>
@@ -251,12 +251,9 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3>BizPage</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
-          </div>
+          
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-6 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
@@ -267,7 +264,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-lg-6 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
               A108 Adam Street <br>
@@ -287,17 +284,7 @@
 
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-
-        </div>
-      </div>
-    </div>
+          
 
     <div class="container">
       <div class="copyright">
