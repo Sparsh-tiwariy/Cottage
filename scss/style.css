@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo {
   font-size: 34px;
-  margin-left: -400px;
+  margin-left:0;
   margin-top: 15px;
   padding: 0;
   line-height: 1;
@@ -731,13 +731,12 @@ text-align:center;
 
 .fontslabo{
 font-family: 'Slabo 13px', serif !important;
-font-weight: 400;
+font-weight: 200;
 color : white;
-font-size: 24px;
-font-weight: bold;
+font-size: 20px;
 }
 .fontgrey{
-color : #95A5A6;
+color : #fff;
 }
 .fontgreysmall{
 color : #95A5A6;
