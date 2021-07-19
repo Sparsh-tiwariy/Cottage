@@ -25,24 +25,150 @@ $_SESSION['childrens'] = $_POST["totalchildrens"];
 
 ?>
 <!DOCTYPE html>
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Reservation</title>
 <meta name="reservation hotel for malaysia" >
 <meta name="zulkarnain" content="gambohnetwork.com.my">
 <meta name="copyright" content="Hotel Malaysia, inc. Copyright (c) 2014">
+<meta name="reservation hotel for malaysia" >
+<meta class="foundation-data-attribute-namespace"><meta class="foundation-mq-xxlarge"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-large"><meta class="foundation-mq-medium"><meta class="foundation-mq-small"><style></style><meta class="foundation-mq-topbar">
+
+
+
 <link rel="stylesheet" href="scss/foundation.css">
+<link rel="stylesheet" href="scss/normalize.css">
 <link rel="stylesheet" href="scss/style.css">
 <link href='http://fonts.googleapis.com/css?family=Slabo+13px' rel='stylesheet' type='text/css'>
 <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+
+<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+
+
+
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
-<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-<meta class="foundation-data-attribute-namespace"><meta class="foundation-mq-xxlarge"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-large"><meta class="foundation-mq-medium"><meta class="foundation-mq-small"><style></style><meta class="foundation-mq-topbar"></head>
 
 
-<body>
+</head>
 <body class="fontbody">
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top header-transparent">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-11 d-flex align-items-center">
+          <h1 class="logo mr-auto"><a href="index.html">SR COTTAGE</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+          <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="#facility">Facilities</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+
+            </ul>
+          </nav><!-- .nav-menu -->
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Intro Section ======= -->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active" style="background-image: url(assets/img/intro-carousel/1.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">We are professional</h2>
+                <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/2.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">At vero eos et accusamus</h2>
+                <p class="animate__animated animate__fadeInUp">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
+                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/3.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Temporibus autem quibusdam</h2>
+                <p class="animate__animated animate__fadeInUp">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
+                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/4.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Nam libero tempore</h2>
+                <p class="animate__animated animate__fadeInUp">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
+                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/5.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Magnam aliquam quaerat</h2>
+                <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Intro Section -->
 
 
 <div class="row foo" style="margin:30px auto 30px auto;">
@@ -68,11 +194,11 @@ $_SESSION['childrens'] = $_POST["totalchildrens"];
 </div>
 </div>
  
-<div class="row">
-	<div class="large-4 columns blackblur fontcolor" style="margin-left:-10px; padding:10px;">
+<div class="row" style="margin:30px auto 30px auto;">
+	<div class="large-4 columns blackblur fontcolor" style="margin-left:0; padding:10px; ">
 	
-		<div class="large-12 columns " >
-		<p><b>Your Reservation</b></p><hr class="line">
+		<div class="large-12 columns" >
+		<p class="fontgrey"><b>Your Reservation</b></p><hr class="line">
 				<form action="sessiondestroy.php" method="post">
 				<div class="row">
 					<div class="large-12 columns">
@@ -84,7 +210,7 @@ $_SESSION['childrens'] = $_POST["totalchildrens"];
 							</div>
 							
 							<div class="large-4 columns" style="max-width:100%;">
-								<span class="">: <?php echo $_SESSION['checkin_date'];?>
+								<span class="fontgrey">: <?php echo $_SESSION['checkin_date'];?>
 								</span>				
 							
 							</div>
@@ -96,7 +222,7 @@ $_SESSION['childrens'] = $_POST["totalchildrens"];
 							</div>
 							
 							<div class="large-4 columns" style="max-width:100%;">
-								<span class="">: <?php echo $_SESSION['checkout_date'];?>
+								<span class="fontgrey">: <?php echo $_SESSION['checkout_date'];?>
 								</span>				
 							
 							</div>
@@ -108,7 +234,7 @@ $_SESSION['childrens'] = $_POST["totalchildrens"];
 							</div>
 							
 							<div class="large-4 columns" style="max-width:100%;">
-								<span class="">: <?php echo $_SESSION['adults'];?>
+								<span class="fontgrey">: <?php echo $_SESSION['adults'];?>
 								</span>				
 							
 							</div>
@@ -120,7 +246,7 @@ $_SESSION['childrens'] = $_POST["totalchildrens"];
 							</div>
 							
 							<div class="large-4 columns" style="max-width:100%;">
-								<span class="">: <?php echo $_SESSION['childrens'];?>
+								<span class="fontgrey">: <?php echo $_SESSION['childrens'];?>
 								</span>				
 							
 							</div>
@@ -132,7 +258,7 @@ $_SESSION['childrens'] = $_POST["totalchildrens"];
 							</div>
 							
 							<div class="large-4 columns" style="max-width:100%;">
-								<span class="">: <?php echo  $_SESSION['total_night'];?>
+								<span class="fontgrey">: <?php echo  $_SESSION['total_night'];?>
 								</span>				
 							
 							</div>
@@ -188,7 +314,7 @@ $_SESSION['childrens'] = $_POST["totalchildrens"];
 					 ON r.room_id = br.room_id");
 				echo mysqli_error($mysqli);
 				if(mysqli_num_rows($result) > 0){
-					echo "<p><b>Choose Your Room</b></p><hr class=\"line\">";
+					echo "<p class=fontgrey><b>Choose Your Room</b></p><hr class=\"line\">";
 					print "				<form action=\"guestform.php\" method=\"post\">\n";
 					
 							
@@ -206,7 +332,7 @@ $_SESSION['childrens'] = $_POST["totalchildrens"];
 								while($sub_row = mysqli_fetch_array($sub_result)){
 								
 								
-								print "					<p><h4>".$sub_row['room_name']."</h4></p>\n";
+								print "					<p><h4 class=>".$sub_row['room_name']."</h4></p>\n";
 								print "					<div class=\"row\">\n";
 								print "					\n";
 								print "						<div class=\"large-4 columns\">\n";
@@ -256,26 +382,26 @@ $_SESSION['childrens'] = $_POST["totalchildrens"];
 							{
 								while($sub_row2 = mysqli_fetch_array($sub_result2)){
 								
-								print "					<p><h4>".$sub_row2['room_name']."</h4></p>\n";
+								print "					<p><h4 class=fontgrey>".$sub_row2['room_name']."</h4></p>\n";
 								print "					<div class=\"row\">\n";
 								print "					\n";
 								print "						<div class=\"large-4 columns\">\n";
 								print "							<img src=\"".$sub_row2['imgpath']."\"></img>\n";
 								print "						</div>\n";
 								print "						<div class=\"large-4 columns\">\n";
-								print "						<p><span class=\"fontgrey\">Occupancy : </span> ".$sub_row2['occupancy']."<br>\n";
+								print "						<p class=fontgrey><span class=\"fontgrey\">Occupancy : </span> ".$sub_row2['occupancy']."<br>\n";
 								print "						<span class=\"fontgrey\">Size : </span> ".$sub_row2['size']."\n";
 								print "						<br><span class=\"fontgrey\">View : </span> ".$sub_row2['view']."</p>\n";
 								print "\n";
 								print "						</div>\n";
 								print "						<div class=\"large-4 columns\">\n";
-								print "						<p ><span class=\"fontgrey\">Rate : MYR </span><span style=\"font-size:24px;\">".$sub_row2['rate']."</span><span class=\"fontgrey\">/ night</span><br>\n";
+								print "						<p class=fontgrey><span class=\"fontgrey\"> Rate : RS </span><span style=\"font-size:24px;\">".$sub_row2['rate']."</span><span class=\"fontgrey\">/ night</span><br>\n";
 								print "						<span style=\"text-align:right;\">".$sub_row2['total_room']." room available</span>\n";
 								print "						</p>\n";
 								print "							<div class=\"row\">\n";
 								print "								<div class=\"large-11 columns\">\n";
 								print "									<label class=\"fontcolor\">\n";
-								print "										<select  class=\"no_of_room\" name=\"qtyroom".$sub_row2['room_id']."\"  id=\"room".$sub_row2['room_id']."\" onChange=\"selection(".$sub_row2['room_id'].")\" style=\"width:100%; color:black; height:45px;\" >\n";
+								print "										<select  class=\"no_of_room\" name=\"qtyroom".$sub_row2['room_id']."\"  id=\"room".$sub_row2['room_id']."\" onChange=\"selection(".$sub_row2['room_id'].")\" style=\"width:145px; color:black; height:45px;\" >\n";
 								print "											<option value=\"0\">0</option>\n";
 																				$i = 1;
 																				while($i <= $sub_row2['total_room'])
@@ -318,66 +444,28 @@ $_SESSION['childrens'] = $_POST["totalchildrens"];
 
 </div><br>
 
- <!-- ======= Footer ======= -->
- <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
 
-          
-
-          <div class="col-lg-3 col-md-3 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Services</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-3 footer-contact">
-            <h4>Contact Us</h4>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            </div>
-
-          </div>
-
-          
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong>BizPage</strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!--
-        All the links in the footer should remain intact.
-        You can delete the links only if you purchased the pro version.
-        Licensing information: https://bootstrapmade.com/license/
-        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
-      -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
 <script>
 function selection(id) {
 	var e = document.getElementById('roomselected').style.display='block';
 
 }
 </script>
+
+
+ <!-- Vendor JS Files -->
+ <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </body></html>

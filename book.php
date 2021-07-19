@@ -37,7 +37,7 @@
   <link href="scss/style.css" rel="stylesheet">
 
 
-  <link href="scss/datepicker.css" rel="stylesheet" type="text/css"/>  
+<link href="scss/datepicker.css" rel="stylesheet" type="text/css"/>  
 <link href='http://fonts.googleapis.com/css?family=Slabo+13px' rel='stylesheet' type='text/css'>
 <!--link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/-->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
@@ -70,14 +70,6 @@
               <li><a href="#services">Services</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#team">Team</a></li>
-              <li class="drop-down"><a href="">Drop Down</a>
-                <ul>
-                  <li><a href="#">Drop Down 1</a></li>
-                  <li><a href="#">Drop Down 3</a></li>
-                  <li><a href="#">Drop Down 4</a></li>
-                  <li><a href="#">Drop Down 5</a></li>
-                </ul>
-              </li>
               <li><a href="#contact">Contact Us</a></li>
 
             </ul>
