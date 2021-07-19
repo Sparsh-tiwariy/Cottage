@@ -1170,6 +1170,7 @@ section {
 }
 
 #gallery .gallery-item figure .link-preview, #gallery .gallery-item figure .link-details {
+  margin-left: 8%;
   position: absolute;
   display: inline-block;
   opacity: 0;
