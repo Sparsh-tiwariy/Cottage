@@ -552,7 +552,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
   padding: 40px;
   overflow: hidden;
-  background-image: url('https://i.imgur.com/8z1tx3u.jpg');
+  background-image: url('https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGhvdGVsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
   background-size: cover;
   border-radius: 5px;
   z-index: 20;
@@ -614,8 +614,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .booking-form .form-control:focus {
-  -webkit-box-shadow: 0px 0px 0px 2px #ff8846;
-  box-shadow: 0px 0px 0px 2px #ff8846;
+  -webkit-box-shadow: 0px 0px 0px 2px #009600;
+  box-shadow: 0px 0px 0px 2px #009600;
 }
 
 .booking-form input[type="date"].form-control {
@@ -672,7 +672,7 @@ h1, h2, h3, h4, h5, h6 {
   top: -10px;
   left: 25px;
   opacity: 0;
-  color: #ff8846;
+  color: #61ec61;
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
@@ -694,7 +694,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .booking-form .submit-btn {
   color: #fff;
-  background-color: #e35e0a;
+  background-color: #209920;
   font-weight: 700;
   height: 60px;
   padding: 10px 30px;
