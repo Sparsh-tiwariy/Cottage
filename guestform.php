@@ -61,6 +61,11 @@ session_start();
 
 <meta class="foundation-data-attribute-namespace"><meta class="foundation-mq-xxlarge"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-large"><meta class="foundation-mq-medium"><meta class="foundation-mq-small"><style></style><meta class="foundation-mq-topbar"></head>
 <body class="fontbody">
+
+
+
+
+
 <div class="row foo" style="margin:30px auto 30px auto;">
 <div class="large-12 columns">
 		<div class="large-3 columns centerdiv">
@@ -85,9 +90,9 @@ session_start();
 </div>
  
 <div class="row">
-	<div class="large-4 columns blackblur fontcolor" style="margin-left:-10px; padding:10px;">
+	<div class="large-4 columns blackblur fontcolor" style="margin-left:-10px; padding:20px;">
 	
-		<div class="large-12 columns " >
+		<div class="large-12 columns " style="color: grey;" >
 		<p><b>Your Reservation</b></p><hr class="line">
 				<form name="guestdetails" action="unsetroomchosen.php" method="post" >
 				<div class="row">
@@ -223,7 +228,7 @@ session_start();
 
 	</div>
 
-	<div class="large-8 columns blackblur fontcolor" style="padding-top:10px;">
+	<div class="large-8 columns blackblur fontcolor" style="padding-top:10px; color: grey">
 		<p><b>Guest Details</b><hr class="line"></p>
 		<form action="insertandemail.php" method="post"  onSubmit="return validateForm(this);">
 		  <div class="row">
