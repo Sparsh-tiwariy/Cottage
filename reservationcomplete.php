@@ -44,7 +44,7 @@ session_start();
 </div>
 </div>
  
-<div class="row">
+<div class="row" style="color: grey;">
 	<div class="large-4 columns blackblur fontcolor" style="margin-left:-10px; padding:10px;">
 	
 		<div class="large-12 columns " >
