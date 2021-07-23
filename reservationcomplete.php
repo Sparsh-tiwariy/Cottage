@@ -189,46 +189,35 @@ session_start();
 		in a confirmation email. Please check your spam folder if you didn't received any email. We look forward to see you soon. In the
 		meantime, if you have any questions, feel free to contact us.</p>
 		<p>
-		<i class="icon-phone" style="font-size:24px"></i> <span class="i-name fontgrey">Phone</span><span class="i-code">&emsp; 60328951744</span><br>
-        <i class="icon-fax" style="font-size:24px"></i> <span class="i-name fontgrey">Fax</span><span class="i-code"> &emsp;&emsp;60328951744</span><br>
-        <i class="icon-mail-alt"style="font-size:24px"> </i> <span class="i-name fontgrey">Email</span><span class="i-code">&emsp; nicestuff@hotmail.com</span>
+		<i class="icon-phone" style="font-size:24px"></i> <span class="i-name fontgrey">Phone</span><span class="i-code">&emsp; 7869286644</span><br>
+        <i class="icon-mail-alt"style="font-size:24px"> </i> <span class="i-name fontgrey">Email</span><span class="i-code">&emsp; Srcottage00@gmail.com</span>
 		</p><hr>
 		<div class="row">
 			<div class="large-12 columns" >
-					<!--form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" >
-					<input type="hidden" name="cmd" value="_xclick">
-					<input type="hidden" name="business" value="mrzulkarnine@gmail.com">
-					<input type="hidden" name="lc" value="MY">
-					<input type="hidden" name="item_name" value="15% Hotel Deposit Payment">
-					<input type="hidden" name="amount" value="<?php $amount = $_SESSION['deposit']; print $amount; ?>">
-					<input type="hidden" name="currency_code" value="INR">
-					<input type="hidden" name="button_subtype" value="services">
-					<input type="hidden" name="no_note" value="0">
-					<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
-					<img type="image" src="img/paypal.jpg" style="background-color:white; width:32%; height:14%; padding:2px; " ></img>
-					<br><button class="button small " border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width:32%;background-color:#2ecc71; ">Pay Room Deposit Now</button>
-					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-					</form-->
-					<form action="./admin/Payment/TxnTest.php" method="post" target="_top">
 					
-					<img type="image" src="img/paypal.jpg" style="background-color:white; width:32%; height:14%; padding:2px; " ></img>
-					<br><button class="button small " border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width:32%;background-color:#2ecc71; ">Pay Room Deposit Now</button>
-					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-		
-					</form>
-					
-
+					<!-- <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HcQtrYdDXcmPXP" async> </script> </form> -->
+						
+						<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HcRcpyHMvebXV1/view" data-text="Pay Now" data-color="#528FF0" data-size="large">
+  <script>
+    (function(){
+      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+      rzp && rzp.init && rzp.init()}})();
+  </script>
+</div>
+    
+    
+</div>
+    
+    
+    
+</div>
 			</div>
 		</div>
 		</div>
-	
-
-
 	</div>
-
-
 </div>
-
 <script>
 </script>
 </body></html>
