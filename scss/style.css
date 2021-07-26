@@ -12,26 +12,26 @@
 :root {
   --d: 700ms;
   --e: cubic-bezier(0.19, 1, 0.22, 1);
-  --font-sans: 'Rubik', sans-serif;
-  --font-serif: 'Cardo', serif;
+  --font-sans: "Rubik", sans-serif;
+  --font-serif: "Cardo", serif;
 }
 
 body {
-	background: linear-gradient(-45deg, #eec452, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+  background: linear-gradient(-45deg, #eec452, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 a {
@@ -39,7 +39,9 @@ a {
   transition: 0.5s;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #18d36e;
   outline: none;
   text-decoration: none;
@@ -50,7 +52,12 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -210,7 +217,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
   color: #18d26e;
 }
 
@@ -246,7 +255,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #333333;
 }
 
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active > a,
+.nav-menu .drop-down ul li:hover > a {
   color: #18d26e;
 }
 
@@ -341,7 +352,9 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav a:hover,
+.mobile-nav .active > a,
+.mobile-nav li:hover > a {
   color: #18d26e;
   text-decoration: none;
 }
@@ -414,7 +427,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#intro .carousel, #intro .carousel-inner, #intro .carousel-item, #intro .carousel-item::before {
+#intro .carousel,
+#intro .carousel-inner,
+#intro .carousel-item,
+#intro .carousel-item::before {
   position: absolute;
   top: 0;
   right: 0;
@@ -429,7 +445,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .carousel-item::before {
-  content: '';
+  content: "";
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -502,17 +518,20 @@ h1, h2, h3, h4, h5, h6 {
   transform: translate3d(0, 0, 0);
 }
 
-#intro .carousel-control-prev, #intro .carousel-control-next {
+#intro .carousel-control-prev,
+#intro .carousel-control-next {
   width: 10%;
 }
 
 @media (min-width: 1024px) {
-  #intro .carousel-control-prev, #intro .carousel-control-next {
+  #intro .carousel-control-prev,
+  #intro .carousel-control-next {
     width: 5%;
   }
 }
 
-#intro .carousel-control-next-icon, #intro .carousel-control-prev-icon {
+#intro .carousel-control-next-icon,
+#intro .carousel-control-prev-icon {
   background: none;
   font-size: 32px;
   line-height: 1;
@@ -556,7 +575,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #booking {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .booking-form {
@@ -566,14 +585,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
   padding: 40px;
   overflow: hidden;
-  background-image: url('https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGhvdGVsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-image: url("https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGhvdGVsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   border-radius: 5px;
   z-index: 20;
 }
 
 .booking-form::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -640,7 +659,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.booking-form input[type="date"].form-control+.form-label {
+.booking-form input[type="date"].form-control + .form-label {
   opacity: 1;
   top: 10px;
 }
@@ -655,7 +674,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.booking-form select.form-control+.select-arrow {
+.booking-form select.form-control + .select-arrow {
   position: absolute;
   right: 15px;
   top: 50%;
@@ -670,8 +689,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
 }
 
-.booking-form select.form-control+.select-arrow:after {
-  content: '\279C';
+.booking-form select.form-control + .select-arrow:after {
+  content: "\279C";
   display: block;
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
@@ -727,49 +746,50 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.9;
 }
 
-.circle{
--webkit-border-radius: 90px;
--moz-border-radius: 90px;
-border-radius: 90px;
+.circle {
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  border-radius: 90px;
 }
 
-.blackblur{
-background-color: #000000;
-background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-dark.png);
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+.blackblur {
+  background-color: #000000;
+  background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-dark.png);
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
-.centerdiv{
-text-align:center;
+.centerdiv {
+  text-align: center;
 }
 
-.fontslabo{
-font-family: 'Slabo 13px', serif !important;
-font-weight: 200;
-color : white;
-font-size: 20px;
-}
-.fontgrey{
+.fontslabo {
+  font-family: "Slabo 13px", serif !important;
+  font-weight: 200;
+  color: white;
   font-size: 20px;
-color : #fff;
 }
-.fontgreysmall{
-color : #95A5A6;
-font-size : 13px;
+.fontgrey {
+  font-size: 15px;
+  color: #fff;
 }
-
-.borderstyle{
-border-radius: 0px 0px 0px 0px;
--moz-border-radius: 0px 0px 0px 0px;
--webkit-border-radius: 0px 0px 0px 0px;
-border: 1px dashed #95A5A6;
+.fontgreysmall {
+  color: white;
+  font-size: 18px;
 }
 
-.line{ 
-height:5px;width:55px;background-color: #2ecc71; border:1px solid #2ecc71;
+.borderstyle {
+  border-radius: 0px 0px 0px 0px;
+  -moz-border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border: 1px dashed #95a5a6;
 }
 
-
+.line {
+  height: 5px;
+  width: 55px;
+  background-color: #2ecc71;
+  border: 1px solid #2ecc71;
+}
 
 /*--------------------------------------------------------------
 # Footer
@@ -839,8 +859,9 @@ height:5px;width:55px;background-color: #2ecc71; border:1px solid #2ecc71;
   padding-bottom: 12px;
 }
 
-#footer .footer-top h4::before, #footer .footer-top h4::after {
-  content: '';
+#footer .footer-top h4::before,
+#footer .footer-top h4::after {
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;

@@ -57,7 +57,7 @@ session_start();
 		<div class="large-4 columns blackblur fontcolor" style="margin-left:-10px; padding:10px;">
 
 			<div class="large-12 columns ">
-				<p><b>Your Reservation</b></p>
+				<p style="color:white;"><b>Your Reservation</b></p>
 				<hr class="line">
 				<form name="guestdetails" action="unsetroomchosen.php" method="post">
 					<div class="row">
@@ -70,7 +70,7 @@ session_start();
 								</div>
 
 								<div class="large-5 columns" style="max-width:100%;">
-									<span class="">: <?php echo $_SESSION['checkin_date']; ?>
+									<span class="fontgrey">: <?php echo $_SESSION['checkin_date']; ?>
 									</span>
 
 								</div>
@@ -82,7 +82,7 @@ session_start();
 								</div>
 
 								<div class="large-5 columns" style="max-width:100%;">
-									<span class="">: <?php echo $_SESSION['checkout_date']; ?>
+									<span class="fontgrey">: <?php echo $_SESSION['checkout_date']; ?>
 									</span>
 
 								</div>
@@ -94,7 +94,7 @@ session_start();
 								</div>
 
 								<div class="large-5 columns" style="max-width:100%;">
-									<span class="">: <?php echo $_SESSION['adults']; ?>
+									<span class="fontgrey">: <?php echo $_SESSION['adults']; ?>
 									</span>
 
 								</div>
@@ -106,7 +106,7 @@ session_start();
 								</div>
 
 								<div class="large-5 columns" style="max-width:100%;">
-									<span class="">: <?php echo $_SESSION['childrens']; ?>
+									<span class="fontgrey">: <?php echo $_SESSION['childrens']; ?>
 									</span>
 
 								</div>
@@ -118,7 +118,7 @@ session_start();
 								</div>
 
 								<div class="large-5 columns" style="max-width:100%;">
-									<span class="">: <?php echo $_SESSION['total_night']; ?>
+									<span class="fontgrey">: <?php echo $_SESSION['total_night']; ?>
 									</span>
 
 								</div>
@@ -138,20 +138,20 @@ session_start();
 							</div>
 							<div class="row">
 								<div class="large-6 columns" style="max-width:100%;">
-									<span class=""><?php
+									<span class="fontgrey"><?php
 
-													foreach ($_SESSION['roomname'] as &$value0) {
-														echo $value0;
-														print "<br>";
-													};
+															foreach ($_SESSION['roomname'] as &$value0) {
+																echo $value0;
+																print "<br>";
+															};
 
-													?>
+															?>
 
 									</span>
 								</div>
 
 								<div class="large-4 columns" style="max-width:100%;">
-									<span class="">
+									<span class="fontgrey">
 										<?php foreach ($_SESSION['roomqty'] as &$value1) {
 											echo $value1;
 											print "<br>";
@@ -167,8 +167,9 @@ session_start();
 					</div><br>
 					<div class="row">
 						<div class="large-12 columns" style="max-width:100%;">
-							<p class="fontgrey borderstyle" style="text-align:center;">15% Deposit Due Now<br>
-								<span class="fontslabo " style="font-size:32px; text-align:center;">INR <?php echo $_SESSION['deposit']; ?></span>
+							<p class="fontgrey borderstyle" style="text-align:center;">
+								<!-- 15% Deposit Due Now<br> -->
+								<!-- <span class="fontslabo " style="font-size:32px; text-align:center;">INR <?php echo $_SESSION['deposit']; ?></span> -->
 								<br><span class="fontgrey" style="text-align:center;">Total</span><br>
 								<span class="fontslabo" ,style="font-size:32px; text-align:center;">INR <?php echo $_SESSION['total_amount']; ?></span>
 							</p>
@@ -197,14 +198,14 @@ session_start();
 		<div class="large-8 columns blackblur fontcolor" style="padding:10px">
 
 			<div class="large-12 columns">
-				<p><b>Reservation Complete</b></p>
+				<p style="color:white;"><b>Reservation Complete</b></p>
 				<hr class="line">
-				<p>Details of your reservation have just been sent to you
+				<p style="color:white;">Details of your reservation have just been sent to you
 					in a confirmation email. Please check your spam folder if you didn't received any email. We look forward to see you soon. In the
 					meantime, if you have any questions, feel free to contact us.</p>
 				<p>
-					<i class="icon-phone" style="font-size:24px"></i> <span class="i-name fontgrey">Phone</span><span class="i-code">&emsp; 7869286644</span><br>
-					<i class="icon-mail-alt" style="font-size:24px"> </i> <span class="i-name fontgrey">Email</span><span class="i-code">&emsp; Srcottage00@gmail.com</span>
+					<i class="icon-phone" style="font-size:24px"></i> <span class="i-name fontgrey">Phone</span><span class="i-code" style="color: white;">&emsp; 7869286644</span><br>
+					<i class="icon-mail-alt" style="font-size:24px"> </i> <span class="i-name fontgrey">Email</span><span class="i-code" style="color: white;">&emsp; Srcottage00@gmail.com</span>
 				</p>
 				<hr>
 				<div class="row">
