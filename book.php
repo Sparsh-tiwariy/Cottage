@@ -5,19 +5,19 @@ session_start();
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Reservation</title>
-<meta name="reservation hotel for malaysia" >
+<meta name="reservation hotel for malaysia">
 <meta name="zulkarnain" content="gambohnetwork.com.my">
 <meta name="copyright" content="Hotel Malaysia, inc. Copyright (c) 2014">
 <!-- Vendor CSS Files -->
 <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <meta name="reservation hotel for malaysia" >
+<link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+<link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+<link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+<link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+<link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+<meta name="reservation hotel for malaysia">
 
 
 <link rel="stylesheet" href="scss/normalize.css">
@@ -26,7 +26,7 @@ session_start();
 <link rel="stylesheet" href="scss/datepicker.css">
 
 
-<link href="scss/datepicker.css" rel="stylesheet" type="text/css"/>  
+<link href="scss/datepicker.css" rel="stylesheet" type="text/css" />
 <link href='http://fonts.googleapis.com/css?family=Slabo+13px' rel='stylesheet' type='text/css'>
 <!--link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/-->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
@@ -34,22 +34,31 @@ session_start();
 
 <script>
   $(document).ready(function() {
-		$("#checkout").datepicker();
-		$("#checkin").datepicker({
-		minDate : new Date(),
-		onSelect: function (dateText, inst) {
+    $("#checkout").datepicker();
+    $("#checkin").datepicker({
+      minDate: new Date(),
+      onSelect: function(dateText, inst) {
         var date = $.datepicker.parseDate($.datepicker._defaults.dateFormat, dateText);
         $("#checkout").datepicker("option", "minDate", date);
-		}
-		});
+      }
+    });
   });
 </script>
 <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-<meta class="foundation-data-attribute-namespace"><meta class="foundation-mq-xxlarge"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-large"><meta class="foundation-mq-medium"><meta class="foundation-mq-small"><style></style><meta class="foundation-mq-topbar"></head>
+<meta class="foundation-data-attribute-namespace">
+<meta class="foundation-mq-xxlarge">
+<meta class="foundation-mq-xlarge">
+<meta class="foundation-mq-large">
+<meta class="foundation-mq-medium">
+<meta class="foundation-mq-small">
+<style></style>
+<meta class="foundation-mq-topbar">
+</head>
+
 <body class="fontbody" style="background-size: relative; overflow: cover;">
- 
-<!-- ======= Header ======= -->
-<header id="header" class="fixed-top header-transparent" style="background-color: black; opacity: 0.7;">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent" style="background-color: black; opacity: 0.7;">
     <div class="container-fluid">
 
       <div class="row">
@@ -90,24 +99,24 @@ session_start();
             <div class="carousel-container">
               <div class="container">
                 <h2 class="animate__animated animate__fadeInDown" style="font-style: oblique;">Welcome to SR COTTAGE Falicity</h2>
-                
+
               </div>
             </div>
           </div>
 
-          
+
 
         </div>
 
-        
+
 
       </div>
     </div>
   </section>
   <!-- End Intro Section -->
 
-<div class="row foo" ><br><br>
-<!--div class="large-12 columns">
+  <div class="row foo"><br><br>
+    <!--div class="large-12 columns">
 		<div class="large-3 columns centerdiv">
 			<a href="index.php" class="button round fontslabo" style="background-color:#2ecc71;">1</a>
 			<p class="fontgrey">Please select Date</p>
@@ -127,93 +136,94 @@ session_start();
 </div-->
 
 
- 
-<div class="row" style="width: 80%; margin-left: 10%; margin-top:10%; margin-bottom: 10%;">
-	<div class="large-12 columns blackblur fontcolor" style="padding-top:10px;">
-	
-	<div class="large-12 columns " >
-	<h3 class="fontgrey"><b>Check Date</b></h3><hr class="line">
-			<form name="form" action="checkroom.php" method="post" onSubmit="return validateForm(this);">
-			<div class="row">
-				
-					<div class="large-6 columns" style="max-width:100%;">
-						<label class="fontgrey" for="checkin">Check In
-							<input name="checkin" id="checkin" style="width:100%;"/>
-						</label>
-					</div>
-					
-					<div class="large-6 columns" style="max-width:100%;">
-						<label class="fontgrey" for="checkout">Check Out
-							<input name="checkout" id="checkout" style="width:100%;"/>
-						</label>
-					
-					
-					</div>
-			</div>
-					
-			<div class="row">
-				
-					<div class="large-6 columns">
-						<label class="fontgrey">Adults
-							
-								<select  name="totaladults" id="totaladults" style="width:100%;">
-								<option value="0">0</option>
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
-								<!-- <option value="5">5</option>
+
+    <div class="row" style="width: 80%; margin-left: 10%; margin-top:10%; margin-bottom: 10%;">
+      <div class="large-12 columns blackblur fontcolor" style="padding-top:10px;">
+
+        <div class="large-12 columns ">
+          <h3 class="fontgrey"><b>Check Date</b></h3>
+          <hr class="line">
+          <form name="form" action="checkroom.php" method="post" onSubmit="return validateForm(this);">
+            <div class="row">
+
+              <div class="large-6 columns" style="max-width:100%;">
+                <label class="fontgrey" for="checkin">Check In
+                  <input name="checkin" id="checkin" style="width:100%;" />
+                </label>
+              </div>
+
+              <div class="large-6 columns" style="max-width:100%;">
+                <label class="fontgrey" for="checkout">Check Out
+                  <input name="checkout" id="checkout" style="width:100%;" />
+                </label>
+
+
+              </div>
+            </div>
+
+            <div class="row">
+
+              <div class="large-6 columns">
+                <label class="fontgrey">Adults
+
+                  <select name="totaladults" id="totaladults" style="width:100%;">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <!-- <option value="5">5</option>
 								<option value="6">6</option>
 								<option value="7">7</option>
 								<option value="8">8</option>
 								<option value="9">9</option>
 								<option value="10">10</option> -->
-								</select>
-							
-						</label>
-					</div>
-					
-					<div class="large-6 columns"  style="max-width:100%;">
-						<label class="fontgrey">Children
-							<select  name="totalchildrens" id="totalchildrens" style="width:100%; color:black;">
-							<option value="0">0</option>
-							<option value="1">1</option>
-							<option value="2">2</option>
-							<option value="3">3</option>
-							<option value="4">4</option>
-							<!-- <option value="5">5</option>
+                  </select>
+
+                </label>
+              </div>
+
+              <div class="large-6 columns" style="max-width:100%;">
+                <label class="fontgrey">Children
+                  <select name="totalchildrens" id="totalchildrens" style="width:100%; color:black;">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <!-- <option value="5">5</option>
 							<option value="6">6</option>
 							<option value="7">7</option>
 							<option value="8">8</option>
 							<option value="9">9</option>
 							<option value="10">10</option> -->
-							</select>
-						</label>
-					</div>
-					
-				
-			</div>
-			
-			  <div class="row">
-				<div class="large-12 columns" >
-					<button name="submit" href="#" class="button small fontslabo" style="background-color:#2ecc71; width:100%;" >Check Availability</button>
-				</div>
-			  </div>
-			</form>
-	</div>
-	
+                  </select>
+                </label>
+              </div>
 
+
+            </div>
+
+            <div class="row">
+              <div class="large-12 columns">
+                <button name="submit" href="#" class="button small fontslabo" style="background-color:#2ecc71; width:100%;">Check Availability</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+
+      </div>
+    </div>
   </div>
-</div>
-</div>
 
-<!-- ======= Footer ======= -->
-<footer id="footer">
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
 
-          
+
 
           <div class="col-lg-6 col-md-6 footer-links">
             <h4>Useful Links</h4>
@@ -229,11 +239,11 @@ session_start();
           <div class="col-lg-6 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Nikunj Vihar Colony, Sahastradhara Rd<br>
+              Maheshwar, Madhya Pradesh 451224<br>
+
+              <strong>Phone:</strong> +91 78692-86644<br>
+              <strong>Email:</strong> Srcottage00@gmail.com<br>
             </p>
 
             <div class="social-links">
@@ -246,7 +256,7 @@ session_start();
 
           </div>
 
-          
+
 
         </div>
       </div>
@@ -254,7 +264,7 @@ session_start();
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>BizPage</strong>. All Rights Reserved
+        &copy; Copyright <strong>SR Cottage</strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!--
@@ -263,54 +273,57 @@ session_start();
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
       -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+
       </div>
     </div>
   </footer><!-- End Footer -->
 
 
-<script>
-	function validateForm(form) {
-		var a = form.checkin.value;
-		var b = form.checkout.value;
-		var c = form.totaladults.value;
-		var d = form.totalchildrens.value;
-			if(a == null || b == null || a == "" || b == "") 
-			{
-			 alert("Please choose date");
-			 return false;
-			}
-			if(c == 0) 
-			{
-			 	if(d == 0) 
-				{
-				 alert("Please choose no. of guest");
-				 return false;
-				}
-			}
-			if(d == 0) 
-			{
-			 	if(c == 0) 
-				{
-				 alert("Please choose no. of guest");
-				 return false;
-				}
-			}
+  <script>
+    function validateForm(form) {
+      var a = form.checkin.value;
+      var b = form.checkout.value;
+      var c = form.totaladults.value;
+      var d = form.totalchildrens.value;
+      if (a == null || b == null || a == "" || b == "") {
+        alert("Please choose date");
+        return false;
+      }
+      if (c == 0) {
+        if (d == 0) {
+          alert("Please choose no. of guest");
+          return false;
+        }
+      }
+      if (d == 0) {
+        if (c == 0) {
+          alert("Please choose no. of guest");
+          return false;
+        }
+      }
 
-	}
-</script>
+    }
+  </script>
 
   <script src="assets/vendor/aos/aos.js"></script>
-  
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-57205452-1', 'auto');
-  ga('send', 'pageview');
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-</script>
-</body></html>
+    ga('create', 'UA-57205452-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+
+</html>
