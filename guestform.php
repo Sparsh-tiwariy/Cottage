@@ -625,11 +625,11 @@ if (mysqli_num_rows($result) > 0) {
 		$("#phone").intlTelInput({
 			//autoFormat: false,
 			//autoHideDialCode: false,
-			defaultCountry: "my",
+			defaultCountry: "in",
 			//nationalMode: true,
 			//numberType: "MOBILE",
 			//onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
-			preferredCountries: ['my', 'us'],
+			preferredCountries: ['in'],
 			//responsiveDropdown: true,
 			utilsScript: "lib/libphonenumber/build/utils.js"
 		});
