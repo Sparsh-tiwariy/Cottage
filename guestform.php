@@ -66,11 +66,6 @@ if (mysqli_num_rows($result) > 0) {
 </head>
 
 <body class="fontbody">
-
-
-
-
-
 	<div class="row foo" style="margin:30px auto 30px auto;">
 		<div class="large-12 columns">
 			<div class="large-3 columns centerdiv">
