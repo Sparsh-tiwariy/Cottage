@@ -58,10 +58,10 @@ session_start();
 <body class="fontbody" style="background-size: relative; overflow: cover;">
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-transparent" style="background-color: black; opacity: 0.7;">
+  <header id="header" class="fixed-top header-transparent" style="background-color: black; ">
     <div class="container-fluid">
 
-      <div class="row">
+      <div class="row" style="margin-left: 0%;">
         <div class="col-xl-12 d-flex align-items-center">
           <h1 class="logo mr-auto"><a href="index.html">SR COTTAGE</a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
