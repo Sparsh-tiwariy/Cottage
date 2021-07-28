@@ -162,6 +162,24 @@
     $(this).find('p, .btn-get-started').addClass('animate__animated animate__fadeInUp');
   });
 
+  // ========================================================================= //
+  //  Typed Js
+  // ========================================================================= //
+
+  var typed = $(".typed");
+
+  $(function() {
+    var strings = $('.typed-items').text();
+    strings = $('.typed-items').data('typed-person') + ',' + strings;
+    strings = strings.split(',');
+
+    typed.typed({
+      strings: strings,
+      typeSpeed: 100,
+      loop: true,
+    });
+  });
+  
   // Skills section
   $('#skills').waypoint(function() {
     $('.progress .progress-bar').each(function() {
