@@ -80,19 +80,18 @@ if (isset($_POST["totalchildrens"])) {
 
 			<div class="row justify-content-center">
 				<div class="col-xl-11 d-flex align-items-center">
-					<h1 class="logo mr-auto"><a href="index.html">SR COTTAGE</a></h1>
+					<h1 class="logo mr-auto"><a href="index.html"><img src="assets/img/logo (2).png" alt="" class="img-fluid">  SR COTTAGE</a></h1>
 					<!-- Uncomment below if you prefer to use an image logo -->
 					<!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
 					<nav class="nav-menu d-none d-lg-block">
 						<ul>
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="#facility">Facilities</a></li>
-							<li><a href="#services">Services</a></li>
-							<li><a href="#gallery">Gallery</a></li>
-							<li><a href="#events">Events</a></li>
-							<li><a href="#team">Team</a></li>
-							<li><a href="#contact">Contact Us</a></li>
+						<li class="active"><a href="index.html">Home</a></li>
+              <li><a href="index.html#about">About Us</a></li>
+              <li><a href="index.html#facility">Facilities</a></li>
+              <li><a href="index.html#services">Rooms</a></li>
+              <li><a href="index.html#gallery">Gallery</a></li>
+              <li><a href="index.html#events">Events</a></li>
 
 						</ul>
 					</nav><!-- .nav-menu -->
