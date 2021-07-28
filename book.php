@@ -70,11 +70,11 @@ session_start();
           <nav class="nav-menu d-none d-lg-block">
             <ul>
               <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#team">Team</a></li>
-              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="index.html#about">About Us</a></li>
+              <li><a href="index.html#facility">Facilities</a></li>
+              <li><a href="index.html#services">Rooms</a></li>
+              <li><a href="index.html#gallery">Gallery</a></li>
+              <li><a href="index.html#events">Events</a></li>
 
             </ul>
           </nav>

@@ -143,7 +143,7 @@ h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 26px 0;
+  padding: 10px 0;
   background: rgba(0, 0, 0, 0.9);
 }
 
@@ -191,18 +191,18 @@ h6 {
 /* Desktop Navigation */
 .nav-menu ul {
   padding: 0;
+  margin-right: -50ch;
   list-style: none;
 }
 
 .nav-menu > ul {
-  margin-left: 100%;
   display: flex;
 }
 
 .nav-menu > ul > li {
   position: relative;
-  white-space: nowrap;
-  padding: 0px 0 0px 28px;
+  white-space: no wrap;
+  padding: 0px 0 0px 18px;
 }
 
 .nav-menu a {
