@@ -30,6 +30,31 @@ session_start();
 </head>
 
 <body class="fontbody">
+
+<!-- ======= Intro Section ======= -->
+<section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active" style="background-image: url(img/i-12.jpeg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Welcome to SR COTTAGE</h2>
+                <p class="animate__animated animate__fadeInUp">We Intend to provide a blissfull Experience.</p>
+				<a href="book.php" class="btn-get-started scrollto animate__animated animate__fadeInUp">Back to Booking page</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Intro Section -->
+
+
 	<div class="row foo" style="margin:30px auto 30px auto;">
 		<div class="large-12 columns">
 			<div class="large-3 columns centerdiv">
@@ -201,7 +226,7 @@ session_start();
 				<p style="color:white;"><b>Reservation Complete</b></p>
 				<hr class="line">
 				<p style="color:white;">Details of your reservation have just been sent to you
-					in a confirmation email. Please check your spam folder if you didn't received any email. We look forward to see you soon. In the
+					via confirmation email. Please check your spam folder if you didn't received any email. We look forward to see you soon. In the
 					meantime, if you have any questions, feel free to contact us.</p>
 				<p>
 					<i class="icon-phone" style="font-size:24px"></i> <span class="i-name fontgrey">Phone</span><span class="i-code" style="color: white;">&emsp; 7869286644</span><br>
@@ -243,7 +268,7 @@ session_start();
 		</div>
 	</div>
 	</div>
-	</div>
+	</div><br><br>	
 	<script>
 	</script>
 </body>
