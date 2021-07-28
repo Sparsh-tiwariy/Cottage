@@ -190,19 +190,19 @@ h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu ul {
-  margin-right: -600ch;
   padding: 0;
   list-style: none;
 }
 
 .nav-menu > ul {
+  margin-left: 100%;
   display: flex;
 }
 
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
-  padding: 10px 0 10px 28px;
+  padding: 0px 0 0px 28px;
 }
 
 .nav-menu a {
