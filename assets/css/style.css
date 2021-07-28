@@ -676,7 +676,7 @@ section {
 /* About Us Section
 --------------------------------*/
 #facility {
-  background: url("../img/about-bg.jpg") center top no-repeat fixed;
+  background: url("../img/fac.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
@@ -768,7 +768,7 @@ section {
   background-image: url(https://images.unsplash.com/photo-1568785919846-27fd1c8f8982?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
 }
 #facility .card:nth-child(2):before {
-  background-image: url(https://images.unsplash.com/photo-1545179605-1296651e9d43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+  background-image: url(https://images.unsplash.com/photo-1607857519715-9e94e187f5a8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80;);
 }
 #facility .card:nth-child(3):before {
   background-image: url(https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
@@ -1031,7 +1031,7 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/book.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1100,7 +1100,7 @@ section {
 /* Facts Section
 --------------------------------*/
 #facts {
-  background: url("../img/facts-bg.jpg") center top no-repeat fixed;
+  background: url("../img/visits.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 0 0;
   position: relative;
