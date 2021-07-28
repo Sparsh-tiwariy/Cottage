@@ -63,7 +63,7 @@ session_start();
 
       <div class="row" style="margin-left: 0%;">
         <div class="col-xl-12 d-flex align-items-center">
-          <h1 class="logo mr-auto"><a href="index.html">SR COTTAGE</a></h1>
+          <h1 class="logo mr-auto"><a href="index.html"><img src="assets/img/logo (2).png" alt="" class="img-fluid">  SR COTTAGE</a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
