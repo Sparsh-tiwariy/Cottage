@@ -52,11 +52,10 @@
           <nav class="nav-menu d-none d-lg-block">
             <ul>
               <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="#facility">Facilities</a></li>
-              <li><a href="#services">Rooms</a></li>
-              <li><a href="#gallery">Gallery</a></li>
-              <li><a href="#events">Events</a></li>
-              <li><a href="#team">Team</a></li>
+              <li><a href="index.html#facility">Facilities</a></li>
+              <li><a href="index.html#services">Rooms</a></li>
+              <li><a href="index.html#gallery">Gallery</a></li>
+              <li><a href="index.html#events">Events</a></li>
               <li><a href="#contact">Contact Us</a></li>
 
             </ul>
@@ -192,8 +191,6 @@
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
               <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
 
           </div>
