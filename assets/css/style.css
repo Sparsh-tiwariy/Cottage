@@ -571,11 +571,51 @@ section {
   padding-bottom: 30px;
   color: #333;
 }
+.section-header-1 h3 {
+  font-size: 32px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section-header-1 h3::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-header-1 h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #18d26e;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-header-1 p {
+  text-align: center;
+  padding-bottom: 30px;
+  color: white;
+}
 
 /* Section with background
 --------------------------------*/
 .section-bg {
   background: #f7f7f7;
+}
+.section-bg-1 {
+  background: #000;
 }
 
 /*--------------------------------------------------------------
@@ -1734,7 +1774,7 @@ figure.effect-layla:hover img {
 
 #contact .contact-info address, #contact .contact-info p {
   margin-bottom: 0;
-  color: #000;
+  color: #fff;
 }
 
 #contact .contact-info h3 {
@@ -1746,7 +1786,7 @@ figure.effect-layla:hover img {
 }
 
 #contact .contact-info a {
-  color: #000;
+  color: #fff;
 }
 
 #contact .contact-info a:hover {
@@ -1770,7 +1810,7 @@ figure.effect-layla:hover img {
   }
 }
 
-#contact .php-email-form {
+/*#contact .php-email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 30px;
 }
@@ -1865,7 +1905,44 @@ figure.effect-layla:hover img {
   100% {
     transform: rotate(360deg);
   }
-}
+}*/
+.contact{
+ padding: 4%;
+ height: 400px;
+ }
+ .col-md-3{
+ background: #ff9b00;
+ padding: 4%;
+ border-top-left-radius: 0.5rem;
+ border-bottom-left-radius: 0.5rem;
+ }
+ .contact-info{
+ margin-top:10%;
+ }
+ .contact-info img{
+ margin-bottom: 15%;
+ }
+ .contact-info h2{
+ margin-bottom: 10%;
+ }
+ .col-md-9{
+ background: #fff;
+ padding: 3%;
+ border-top-right-radius: 0.5rem;
+ border-bottom-right-radius: 0.5rem;
+ }
+ .contact-form label{
+ font-weight:600;
+ }
+ .contact-form button{
+ background: #25274d;
+ color: #fff;
+ font-weight: 600;
+ width: 25%;
+ }
+ .contact-form button:focus{
+ box-shadow:none;
+ } 
 
 /*--------------------------------------------------------------
 # Footer
@@ -1884,6 +1961,7 @@ figure.effect-layla:hover img {
 
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
+  background-color: #120f0f;
 }
 
 #footer .footer-top .footer-info h3 {
