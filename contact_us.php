@@ -45,7 +45,7 @@
 
       <div class="row justify-content-center">
         <div class="col-xl-11 d-flex align-items-center">
-          <h1 class="logo mr-auto"><a href="index.html"> <img src="assets/img/logo (2).png" alt="" class="img-fluid">  SR COTTAGE</a></h1>
+          <h1 class="logo mr-auto"><a href="index.html"> <img src="assets/img/logo.jpg" alt="" class="img-fluid"> SR COTTAGE</a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -67,94 +67,94 @@
     </div>
   </header><!-- End Header -->
 
-<section id="contact" class="section-bg-1">
-      <div class="container" data-aos="fade-up">
+  <section id="contact" class="section-bg-1">
+    <div class="container" data-aos="fade-up">
 
-        <div class="section-header-1">
-          <br> <br><br><br><br>
-          <h3>Contact Us</h3>
-          <p>We are here 24x7 for your service. Want to know more about SR Cottage, please feel free to contact us.</p>
+      <div class="section-header-1">
+        <br> <br><br><br><br>
+        <h3>Contact Us</h3>
+        <p>We are here 24x7 for your service. Want to know more about SR Cottage, please feel free to contact us.</p>
+      </div>
+
+      <div class="row contact-info">
+
+        <div class="col-md-4">
+          <div class="contact-address">
+            <i class="ion-ios-location-outline"></i>
+            <h3>Address</h3>
+            <address>Nikunj Vihar Colony, Sahastradhara Rd, Maheshwar, Madhya Pradesh </address>
+          </div>
         </div>
 
-        <div class="row contact-info">
-
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="ion-ios-location-outline"></i>
-              <h3>Address</h3>
-              <address>Nikunj Vihar Colony, Sahastradhara Rd, Maheshwar, Madhya Pradesh </address>
-            </div>
+        <div class="col-md-4">
+          <div class="contact-phone">
+            <i class="ion-ios-telephone-outline"></i>
+            <h3>Phone Number</h3>
+            <p><a href="tel:+155895548855">+91 78692 86644 </a></p>
           </div>
-
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="ion-ios-telephone-outline"></i>
-              <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+91 78692 86644 </a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="ion-ios-email-outline"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:info@example.com">srcottage00@gmail.com</a></p>
-            </div>
-          </div>
-
         </div>
-        <div class="container contact">
-         <div class="row">
-            <div class="col-md-3">
-               <div class="contact-info">
-                  <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
-                  <h2>Contact Us</h2>
-                  <h4>We would love to hear from you !</h4>
-               </div>
+
+        <div class="col-md-4">
+          <div class="contact-email">
+            <i class="ion-ios-email-outline"></i>
+            <h3>Email</h3>
+            <p><a href="mailto:info@example.com">srcottage00@gmail.com</a></p>
+          </div>
+        </div>
+
+      </div>
+      <div class="container contact">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="contact-info">
+              <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image" />
+              <h2>Contact Us</h2>
+              <h4>We would love to hear from you !</h4>
             </div>
-            <div class="col-md-9">
-               <form method="post" id="frmContactus">
-          <div class="contact-form">
-            <div class="form-group">
-             <label class="control-label col-sm-2" for="name">Name:</label>
-             <div class="col-sm-10">          
-              <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" required>
-             </div>
-            </div>
-            <div class="form-group">
-             <label class="control-label col-sm-2" for="email">Email:</label>
-             <div class="col-sm-10">
-              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
-             </div>
-            </div>
-            <div class="form-group">
-             <label class="control-label col-sm-2" for="mobile">Mobile:</label>
-             <div class="col-sm-10">
-              <input type="text" class="form-control" id="mobile" placeholder="Enter mobile" name="mobile" required>
-             </div>
-            </div>
-            
-            <div class="form-group">
-             <label class="control-label col-sm-2" for="comment">Comment:</label>
-             <div class="col-sm-10">
-              <textarea class="form-control" rows="5" id="comment" name="comment"></textarea>
-             </div>
-            </div>
-            <div class="form-group">
-             <div class="col-sm-offset-2 col-sm-10">
-              <button type="submit" class="btn btn-default" name="submit" id="submit">Submit</button>
-              <span style="color:red;" id="msg"></span>
-             </div>
-            </div>
-           </div>
-         </form>
-            </div>
-         </div>
+          </div>
+          <div class="col-md-9">
+            <form method="post" id="frmContactus">
+              <div class="contact-form">
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="name">Name:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="email">Email:</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="mobile">Mobile:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="mobile" placeholder="Enter mobile" name="mobile" required>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="comment">Comment:</label>
+                  <div class="col-sm-10">
+                    <textarea class="form-control" rows="5" id="comment" name="comment"></textarea>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default" name="submit" id="submit">Submit</button>
+                    <span style="color:red;" id="msg"></span>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-</section>
+  </section>
 
-    
+
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -191,7 +191,7 @@
             <div class="social-links">
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.instagram.com/sr.cottage/" class="instagram"><i class="fa fa-instagram"></i></a>
             </div>
 
           </div>
@@ -241,24 +241,24 @@
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <script>
-    jQuery('#frmContactus').on('submit',function(e){
-    jQuery('#msg').html('');
-    jQuery('#submit').html('Please wait');
-    jQuery('#submit').attr('disabled',true);
-    jQuery.ajax({
-      url:'submit.php',
-      type:'post',
-      data:jQuery('#frmContactus').serialize(),
-      success:function(result){
-        jQuery('#msg').html(result);
-        jQuery('#submit').html('Submit');
-        jQuery('#submit').attr('disabled',false);
-        jQuery('#frmContactus')[0].reset();
-      }
+    jQuery('#frmContactus').on('submit', function(e) {
+      jQuery('#msg').html('');
+      jQuery('#submit').html('Please wait');
+      jQuery('#submit').attr('disabled', true);
+      jQuery.ajax({
+        url: 'submit.php',
+        type: 'post',
+        data: jQuery('#frmContactus').serialize(),
+        success: function(result) {
+          jQuery('#msg').html(result);
+          jQuery('#submit').html('Submit');
+          jQuery('#submit').attr('disabled', false);
+          jQuery('#frmContactus')[0].reset();
+        }
+      });
+      e.preventDefault();
     });
-    e.preventDefault();
-    });
-    </script>
+  </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>

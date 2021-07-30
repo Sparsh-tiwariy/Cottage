@@ -5,9 +5,7 @@ session_start();
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Reservation</title>
-<meta name="reservation hotel for malaysia">
-<meta name="zulkarnain" content="gambohnetwork.com.my">
-<meta name="copyright" content="Hotel Malaysia, inc. Copyright (c) 2014">
+
 <!-- Vendor CSS Files -->
 <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -63,7 +61,7 @@ session_start();
 
       <div class="row" style="margin-left: 0%;">
         <div class="col-xl-12 d-flex align-items-center">
-          <h1 class="logo mr-auto"><a href="index.html"><img src="assets/img/logo (2).png" alt="" class="img-fluid">  SR COTTAGE</a></h1>
+          <h1 class="logo mr-auto"><a href="index.html"><img src="assets/img/logo.jpg" alt="" class="img-fluid"> SR COTTAGE</a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -98,7 +96,7 @@ session_start();
           <div class="carousel-item active" style="background-image: url(img/i-5.jpg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown" style="font-style: oblique;">Welcome to SR COTTAGE Falicity</h2>
+                <h2 class="animate__animated animate__fadeInDown">Welcome to SR COTTAGE Felicity</h2>
 
               </div>
             </div>
@@ -228,11 +226,11 @@ session_start();
           <div class="col-lg-6 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Services</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index.html#about">About us</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index.html#services">Rooms</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="SR COTTAGE T&S.pdf" download>Terms of service</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="SR COTTAGE PP.pdf" download>Privacy policy</a></li>
             </ul>
           </div>
 
@@ -249,9 +247,8 @@ session_start();
             <div class="social-links">
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/sr.cottage/" class="instagram"><i class="fa fa-instagram"></i></a>
+
             </div>
 
           </div>
