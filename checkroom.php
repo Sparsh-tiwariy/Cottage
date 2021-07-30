@@ -80,18 +80,18 @@ if (isset($_POST["totalchildrens"])) {
 
 			<div class="row justify-content-center">
 				<div class="col-xl-11 d-flex align-items-center">
-					<h1 class="logo mr-auto"><a href="index.html"><img src="assets/img/logo (2).png" alt="" class="img-fluid">  SR COTTAGE</a></h1>
+					<h1 class="logo mr-auto"><a href="index.html"><img src="assets/img/logo.jpg" alt="" class="img-fluid"> SR COTTAGE</a></h1>
 					<!-- Uncomment below if you prefer to use an image logo -->
 					<!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
 					<nav class="nav-menu d-none d-lg-block">
 						<ul>
-						<li class="active"><a href="index.html">Home</a></li>
-              <li><a href="index.html#about">About Us</a></li>
-              <li><a href="index.html#facility">Facilities</a></li>
-              <li><a href="index.html#services">Rooms</a></li>
-              <li><a href="index.html#gallery">Gallery</a></li>
-              <li><a href="index.html#events">Events</a></li>
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="index.html#about">About Us</a></li>
+							<li><a href="index.html#facility">Facilities</a></li>
+							<li><a href="index.html#services">Rooms</a></li>
+							<li><a href="index.html#gallery">Gallery</a></li>
+							<li><a href="index.html#events">Events</a></li>
 
 						</ul>
 					</nav><!-- .nav-menu -->
@@ -103,60 +103,60 @@ if (isset($_POST["totalchildrens"])) {
 
 	<!-- ======= Intro Section ======= -->
 	<section id="intro">
-    <div class="intro-container">
-      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+		<div class="intro-container">
+			<div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
 
-        <ol class="carousel-indicators"></ol>
+				<ol class="carousel-indicators"></ol>
 
-        <div class="carousel-inner" role="listbox">
+				<div class="carousel-inner" role="listbox">
 
-          <div class="carousel-item active" style="background-image: url(img/i-12.jpeg)">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Welcome to SR COTTAGE</h2>
-                <p class="animate__animated animate__fadeInUp">We Intend to provide a blissfull Experience.</p>
-                <a href="#facility" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
-              </div>
-            </div>
-          </div>
+					<div class="carousel-item active" style="background-image: url(img/i-12.jpeg)">
+						<div class="carousel-container">
+							<div class="container">
+								<h2 class="animate__animated animate__fadeInDown">Welcome to SR COTTAGE</h2>
+								<p class="animate__animated animate__fadeInUp">We Intend to provide a blissfull Experience.</p>
+								<a href="#facility" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+							</div>
+						</div>
+					</div>
 
-          <div class="carousel-item" style="background-image: url(img/i-15.jpeg)">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Heart of MP</h2>
-                <p class="animate__animated animate__fadeInUp">True luxury for you in the lap of nature..</p>
-                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
-              </div>
-            </div>
-          </div>
+					<div class="carousel-item" style="background-image: url(img/i-15.jpeg)">
+						<div class="carousel-container">
+							<div class="container">
+								<h2 class="animate__animated animate__fadeInDown">Heart of MP</h2>
+								<p class="animate__animated animate__fadeInUp">True luxury for you in the lap of nature..</p>
+								<a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+							</div>
+						</div>
+					</div>
 
-          <div class="carousel-item" style="background-image: url(img/i-7.jpeg)">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Roomsssss</h2>
-                <p class="animate__animated animate__fadeInUp">Fresh beds, clean rooms, excellent room service is what we provide.</p>
-                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
-              </div>
-            </div>
-          </div>
+					<div class="carousel-item" style="background-image: url(img/i-7.jpeg)">
+						<div class="carousel-container">
+							<div class="container">
+								<h2 class="animate__animated animate__fadeInDown">Roomsssss</h2>
+								<p class="animate__animated animate__fadeInUp">Fresh beds, clean rooms, excellent room service is what we provide.</p>
+								<a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+							</div>
+						</div>
+					</div>
 
-          
 
-        </div>
 
-        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
+				</div>
 
-        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+				<a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
 
-      </div>
-    </div>
-  </section><!-- End Intro Section -->
+				<a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+					<span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+
+			</div>
+		</div>
+	</section><!-- End Intro Section -->
 
 
 	<div class="row foo" style="margin:30px auto 30px auto;">

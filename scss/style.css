@@ -171,6 +171,7 @@ h6 {
 
 #header .logo a {
   color: #fff;
+  text-decoration: none;
 }
 
 #header .logo img {
@@ -222,6 +223,7 @@ h6 {
 .nav-menu .active > a,
 .nav-menu li:hover > a {
   color: #18d26e;
+  text-decoration: none;
 }
 
 .nav-menu .drop-down ul {
