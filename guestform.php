@@ -26,7 +26,7 @@ if (mysqli_num_rows($result) > 0) {
 			$_SESSION['roomqty'][$count] = $_POST["qtyroom" . $row['room_id'] . ""];
 			$_SESSION['roomname'][$count] = $_POST["room_name" . $row['room_id'] . ""];
 			$_SESSION['ind_rate'][$count] = $row['rate']  * $_POST["qtyroom" . $row['room_id'] . ""];
-			$_SESSION['total_amount'] =  ($row['rate']  * $_POST["qtyroom" . $row['room_id'] . ""] * $_SESSION['total_night']) + $_SESSION['total_amount'];
+			$_SESSION['total_amount'] =  ($row['rate']  * $_POST["qtyroom" . $row['room_id'] . ""] * $_SESSION['total_night']);
 			// $_SESSION['deposit'] = $_SESSION['total_amount'] * 0.15;
 			$count = $count + 1;
 		}
