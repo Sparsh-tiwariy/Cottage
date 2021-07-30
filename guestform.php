@@ -65,35 +65,35 @@ if (mysqli_num_rows($result) > 0) {
 <meta class="foundation-mq-topbar">
 
 
-	
+
 </head>
 
 <body class="fontbody">
 
-	
+
 
 	<!-- ======= Intro Section ======= -->
 	<section id="intro">
-    <div class="intro-container">
-      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+		<div class="intro-container">
+			<div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
 
-        <ol class="carousel-indicators"></ol>
+				<ol class="carousel-indicators"></ol>
 
-        <div class="carousel-inner" role="listbox">
+				<div class="carousel-inner" role="listbox">
 
-          <div class="carousel-item active" style="background-image: url(img/i-12.jpeg)">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Welcome to SR COTTAGE</h2>
-                <p class="animate__animated animate__fadeInUp">We Intend to provide a blissfull Experience.</p>
-				<a href="book.php" class="btn-get-started scrollto animate__animated animate__fadeInUp">Back to Booking Page</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!-- End Intro Section -->
+					<div class="carousel-item active" style="background-image: url(img/i-12.jpeg)">
+						<div class="carousel-container">
+							<div class="container">
+								<h2 class="animate__animated animate__fadeInDown">Welcome to SR COTTAGE</h2>
+								<p class="animate__animated animate__fadeInUp">We Intend to provide a blissfull Experience.</p>
+								<a href="book.php" class="btn-get-started scrollto animate__animated animate__fadeInUp">Back to Booking Page</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- End Intro Section -->
 
 
 	<div class="row foo" style="margin:30px auto 30px auto;">
